@@ -1,8 +1,8 @@
 # Read BMP180
 
-Tested with esp-01 & esp-12, firmware version 0.9.6-dev_20150704.
+Read temperature and pressure from BMP180
 
-Objective: Read temperature and pressure from BMP180
+Tested with esp-01 & esp-12, firmware version 0.9.6-dev_20150704.
 
 1. Change gpio ports if needed in file bmp180_read.lua
 2. Upload both files
