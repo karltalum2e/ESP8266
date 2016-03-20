@@ -1,6 +1,6 @@
 # Read BMP180
 
-Read temperature and pressure from BMP180
+Read temperature and atmospheric pressure from BMP180
 
 Tested with esp-01 & esp-12, firmware version 0.9.6-dev_20150704.
 
