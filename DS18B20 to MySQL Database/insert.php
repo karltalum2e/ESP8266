@@ -1,7 +1,7 @@
  <?php
-	$mysqli = new mysqli("localhost", "root", "password", "database name");
-	$temperature = $_GET["temperature"];
-	$stmt= $mysqli->prepare("INSERT INTO temperature (temperature) VALUES (?)");
-	$stmt->bind_param("d", $temperature);
+	$mysqli = new mysqli("localhost", "root", "password", "tempdatabase");
+	$temp = $_GET["temp"];
+	$stmt= $mysqli->prepare("INSERT INTO tempdatabase (temptable) VALUES (?)");
+	$stmt->bind_param("d", $temp);
 	$stmt->execute();	
 ?>
