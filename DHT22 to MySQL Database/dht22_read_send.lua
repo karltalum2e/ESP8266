@@ -18,7 +18,7 @@ package.loaded["dht22_min"]=nil
 tmr.alarm(2, 1000, 1, function() sendData() end)
 
 function sendData()
-IP="46.101.62.130"
+IP="Server-IP"
 conn=net.createConnection(net.TCP, 0) 
 conn:on("receive", function(conn, payload) print(payload) end)
 conn:connect(80, IP) 
