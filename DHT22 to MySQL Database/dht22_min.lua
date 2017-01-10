@@ -1,4 +1,11 @@
--- dht22_min.lua
+-- ***************************************************************************
+-- DHT22 module for ESP8266 with nodeMCU
+--
+-- Written by Javier Yanez 
+-- but based on a script of Pigs Fly from ESP8266.com forum
+--
+-- MIT license, http://opensource.org/licenses/MIT
+-- ***************************************************************************
 
 local e=...
 local a={}_G[e]=a
