@@ -1,3 +1,12 @@
+-- ***************************************************************************
+-- BMP180 module for ESP8266 with nodeMCU
+-- BMP085 compatible but not tested
+--
+-- Written by Javier Yanez
+--
+-- MIT license, http://opensource.org/licenses/MIT
+-- ***************************************************************************
+
 local moduleName = ...
 local M = {}
 _G[moduleName] = M
